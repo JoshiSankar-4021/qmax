@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.align-right {
+  display: flex !important;
+  justify-content: right !important;
+}
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.mui-card {
+  max-width: 40%;
+  margin: auto;
+  margin-top: 35px;
+}
